@@ -1,0 +1,12 @@
+.chatbot-button.get-oauth-token-button {
+    margin-left: 0px;
+    color: slategray;
+    border: 1px solid slategray;
+}
+
+.chatbot-button.get-oauth-token-button.connected {
+    margin-left: 0px;
+    color: slategray;
+    border: 1px solid slategray;
+    background-color: #cccccc;
+}

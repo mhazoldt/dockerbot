@@ -1,0 +1,122 @@
+
+
+html {
+    background-color: dodgerblue;
+  }
+
+  
+.main-button {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  background-color: transparent;
+  margin-top: 15px;
+}
+
+.requests-container {
+  border-radius: 5px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-top: 15px;
+  color: dodgerblue;
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+.chatbot-button {
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: dodgerblue;
+  outline: none;
+  margin-top: 5px;
+}
+
+.chatbot-button.connected {
+  border: 1px solid lime;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: lime;
+  outline: none;
+  margin-top: 5px;
+}
+  
+/* .main-heading {
+  color: black;
+  text-decoration: underline;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+} */
+
+.text-input {
+  border-radius: 5px;
+  width: 100%;
+  outline: none;
+  border: 1px solid black;
+  line-height: 20px;
+}
+
+/* .input-container {
+  padding-bottom: 10px;
+} */
+
+.dock-request-container {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.approve-button {
+  border: 1px solid hsl(120, 100%, 40%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: hsl(120, 100%, 40%);
+  outline: none;
+  margin-left: 5px;
+}
+
+.approve-button:hover {
+  box-shadow: inset 0px -2px 15px -5px hsl(120, 100%, 80%);
+}
+
+.approve-button.at-max, .approve-button.at-max:hover {
+  border-radius: 5px;
+  padding: 5px 10px;
+  outline: none;
+  margin-left: 5px;
+  color: slategray;
+  border: 1px solid slategray;
+  background-color: #cccccc;
+}
+
+.deny-button {
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: red;
+  outline: none;
+  margin-left: 5px;
+}
+
+.deny-button:hover {
+  box-shadow: inset 0px -2px 15px -5px hsl(0, 100%, 80%);
+}
+
+.input-container.dock-requests {
+  overflow-y: scroll;
+  max-height: 455px;
+}
+
+.input-container.dock-requests::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

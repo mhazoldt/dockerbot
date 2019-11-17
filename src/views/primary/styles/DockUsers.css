@@ -1,0 +1,47 @@
+.undock-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 5px;
+    /* padding: 5px 10px; */
+    color: black;
+    outline: none;
+    /* margin-top: 5px; */
+    /* margin-left: 5px; */
+}
+
+.undock-button:hover {
+    box-shadow: inset 0px -2px 15px -5px hsl(0, 0%, 50%);
+}
+
+.docked-users-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.manual-add-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.chatbot-button.manual-add-button {
+    white-space: nowrap;
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.chatbot-button.manual-add-button.max-docked {
+    white-space: nowrap;
+    margin: 0px;
+    margin-left: 5px;
+    color: slategray;
+    border: 1px solid slategray;
+    background-color: #cccccc;
+}

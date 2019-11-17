@@ -1,0 +1,39 @@
+
+.card-main {
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: dodgerblue;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+.card-header {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    color: black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: hsl(0, 0%, 80%);
+    background-image: linear-gradient(to bottom right, hsl(0, 0%, 80%), hsl(0, 0%, 50%));
+}
+
+.card-header.collapsed {
+    border: 0px;
+    border-radius: 5px;
+}
+
+.main-heading {
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}

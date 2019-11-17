@@ -1,0 +1,164 @@
+
+
+html {
+  background-color: dodgerblue;
+  overflow: hidden;
+}
+
+.main-container {
+  padding: 15px;
+  /* padding-top: 0px; */
+  background-color: dodgerblue;
+  /* margin-top: 15px; */
+}
+
+.main-button {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  background-color: transparent;
+  margin-top: 15px;
+}
+
+.chatbot-container {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  box-sizing: border-box;
+  color: dodgerblue;
+}
+
+.chatbot-button {
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: dodgerblue;
+  outline: none;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.chatbot-button:hover {
+  box-shadow: inset 0px -2px 15px -5px hsl(209.6, 100%, 80%);
+}
+
+.chatbot-button.dock {
+  margin-left: 5px;
+}
+
+.chatbot-button.connected {
+  border: 1px solid hsl(120, 100%, 40%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: hsl(120, 100%, 40%);
+  outline: none;
+  margin-top: 5px;
+}
+
+.chatbot-button.connected:hover {
+  box-shadow: inset 0px -2px 15px -5px hsl(120, 100%, 80%);
+}
+
+.chatbot-title {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+  border: 0px;
+  border-bottom: 1px solid black;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #cccccc;
+}
+
+.chatbot-title.collapsed {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+  border: 0px;
+  border-bottom: 0px solid black;
+  /* border-top-right-radius: 5px; */
+  /* border-top-left-radius: 5px; */
+  border-radius: 5px;
+  background-color: #cccccc;
+}
+
+.chatbot-content-container {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.chatbot-content-container.collapsed {
+  height: 0px;
+  display: none;
+  padding: 0px;
+}
+
+.main-heading {
+  color: black;
+  /* text-decoration: underline; */
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.text-input, .text-input:disabled {
+  border-radius: 5px;
+  width: 100%;
+  outline: none;
+  border: 1px solid black;
+  color: black;
+  line-height: 20px;
+}
+
+input.connected {
+  background-color: #cccccc;
+}
+
+.input-container {
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: 230px 200px;
+  grid-row-gap: 8px;
+  /* border: 1px solid yellow; */
+}
+
+.checkbox-container {
+  display: inline-flex;
+  align-items: center;
+  /* border: 1px solid lime; */
+}
+
+.checkbox-text {
+  display: inline-block;
+  white-space: nowrap;
+  /* border: 1px solid brown; */
+  box-sizing: border-box;
+  padding-left: 3px;
+}
+
+.checkbox-box-container {
+  display: inline-flex;
+  justify-items: center;
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
+}
+
+.input-container.docked-users {
+  padding-top: 10px;
+}
+
+.input-container.dock-requests {
+  padding-top: 10px;
+}
