@@ -22,8 +22,8 @@ const primaryPageData = {
 
 const dockPageData = {
   window: {
-    width: 1610,
-    height: 310,
+    width: 1600,
+    height: 300,
     webPreferences: {
       nodeIntegration: true
     },

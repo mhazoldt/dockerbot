@@ -20,9 +20,9 @@ routes['dock-state-reply'] = (msg) => {
   const columnChanged = newColumn !== currentColumn;
 
   if(columnChanged && newColumn) {
-    remote.getCurrentWindow().setSize(410, 1210);
+    remote.getCurrentWindow().setSize(400, 1200);
   } else if(columnChanged) {
-    remote.getCurrentWindow().setSize(1610, 310);
+    remote.getCurrentWindow().setSize(1600, 300);
   }
 
   dockComponent.setState(msg.data)
@@ -92,7 +92,7 @@ class App extends Component {
     let renderPlaceholders = this.state.placeholders
 
     return (
-      <div style={{paddingTop: '5px'}}>
+      <div style={{paddingTop: '0px'}}>
         <StreamsContainer column={this.state.column}>
           {this.renderDock(dock, renderPlaceholders)}
         </StreamsContainer>
