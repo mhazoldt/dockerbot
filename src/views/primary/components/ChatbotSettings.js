@@ -15,7 +15,7 @@ textInputValidations['chatbotname'] = text => {
 }
 
 textInputValidations['channels'] = text => {
-  const pattern = /^[a-zA-Z0-9\-_]+(?:(?:(?:,|, )(?!,)){1}[a-zA-Z0-9\-_]*)*$/
+  const pattern = /(?:^$|^[a-zA-Z0-9\-_]+(?:(?:(?:,|, )(?!,)){1}[a-zA-Z0-9\-_]*)*$)/
   return pattern.test(text);
 }
 
