@@ -147,6 +147,7 @@ class Chatbot extends Component {
                   <div className="checkbox-grid">
                     <Checkbox 
                       shouldCheck={this.props.requireapproval}
+                      shouldDisable={connected}
                       handleCheckbox={(e) => this.props.handleCheckbox(e)}
                       checkboxName="requireapproval"
                       checkboxText="require approval to dock"
