@@ -1,7 +1,7 @@
 # Dockerbot
 
 ## About
-No, not that docker 🐳. Dockerbot is a Twitch chatbot that allows a streamer to dock other streams onto theirs as a video overlay. It can also be used as an overlay to easily add streams without the chatbot. The overall look of the dock placeholders and usernames is inspired by an old website called Stickam. I created this to bring some of that functionality to Twitch. I also wanted to learn Electron. This was thrown together as a side project, a lot of critiques could be made but I think it is useable and a reasonably good example on tying together Electron and React. You can see a demo of it [here](https://www.youtube.com/watch?v=MGBeRwlLmPA).
+No, not that docker 🐳. Dockerbot is a Twitch chatbot that allows a streamer to dock other streams onto theirs as a video overlay. It can also be used as an overlay to easily add streams without the chatbot. The overall look of the dock placeholders and usernames is inspired by an old website called Stickam. I created this to bring some of that functionality to Twitch. I also wanted to learn Electron. This was thrown together as a side project, a lot of critiques could be made but I think it is useable and a reasonably good example on tying together Electron and React. You can see a demo of it [here](https://www.youtube.com/watch?v=XO8vQ4i3BuI).
 
 Per using Electron it runs on Windows, MacOS and Linux.
 
