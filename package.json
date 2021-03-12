@@ -44,7 +44,7 @@
     "morgan": "^1.9.1",
     "node-fetch": "^2.6.0",
     "react": "^16.8.6",
-    "react-dev-utils": "^9.1.0",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.8.6",
     "request": "^2.88.0",
     "rimraf": "^3.0.0",
