@@ -42,7 +42,7 @@
     "gulp": "^4.0.2",
     "gulp-eslint": "^6.0.0",
     "morgan": "^1.9.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "react": "^16.8.6",
     "react-dev-utils": "^9.1.0",
     "react-dom": "^16.8.6",
